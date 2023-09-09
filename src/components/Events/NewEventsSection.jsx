@@ -15,6 +15,7 @@ export default function NewEventsSection() {
 
   if (isPending) {
     content = <LoadingIndicator />;
+   
   }
 
   if (isError) {
